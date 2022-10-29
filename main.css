@@ -1,0 +1,234 @@
+/*
+    Fontes:
+    
+    font-family: 'Audiowide', cursive;
+
+    font-family: 'Bungee', cursive;
+
+    font-family: 'Electrolize', sans-serif;
+
+    font-family: 'Fasthand', cursive;
+
+    font-family: 'Roboto', sans-serif; */
+
+body {
+    font-family: 'Electrolize', sans-serif;
+}
+
+header {
+    background-color: #000011;
+}
+
+header,
+header .nav-link,
+.navbar-toggler-icon {
+    color: #d1f7ff;
+}
+
+.navbar-toggler {
+    background-color: #d1f7ff;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active i {
+    color: #ff2a6d;
+    background-color: #d1f7ff;
+}
+
+ul .nav-link, ul li i {
+    color: #d1f7ff;
+}
+
+ul .nav-link:hover,
+ul .nav-link i:hover {
+    color: #05d9e8;
+}
+
+.form-control {
+    color: #01012b;
+    background-color: #d1f7ff;
+}
+
+.form-control:focus {
+    color: #ff2a6d;
+    background-color: #d1f7ff;
+}
+
+#sobre-a-house {
+    background-color: #01012b;
+    color: #d1f7ff;
+}
+
+#campeonato {
+    color: #d1f7ff;
+    background-color: #02455f;
+}
+
+#conheca-tambem {
+    color: #d1f7ff;
+    background-color: #01012b;
+}
+
+#agende-sua-visita {
+    color: #d1f7ff;
+    background-color: #02455f;
+    padding-bottom: 20px;
+}
+
+
+ul li a i{
+    color: #d1f7ff;
+}
+
+ul li a i:hover{
+    color: #ff2a6d;
+}
+
+.btn {
+    color: #d1f7ff;
+    background-color: #02455f;
+}
+
+.btn:hover {
+    color: #ff2a6d;
+    background-color: #d1f7ff;
+}
+
+
+header {
+    display: inline-flex;
+}
+
+header h1 {
+    font-family: 'Audiowide', cursive;
+}
+
+header nav {
+    margin: 0 auto;
+    font-family: 'Audiowide', cursive;
+}
+
+h2,
+h3,
+h5,
+label,
+aside,
+.btn.btn-success {
+    font-family: 'Audiowide', cursive;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.carousel-item img {
+    max-height: 600px;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+aside>ul {
+    height: 600px;
+}
+
+aside .nav-tabs {
+    border-bottom: none;
+}
+
+.col-md-3.tab {
+    max-height: 300px;
+}
+
+#campeonato1 {
+    height: 250px;
+    overflow-y: hidden;
+}
+
+#campeonato2 {
+    height: 350px;
+    overflow-y: hidden;
+}
+
+#retro {
+    height: 300px;
+    overflow-y: hidden;
+}
+
+#arcarde {
+    height: 400px
+}
+
+#consoles {
+    height: 400px;
+}
+
+#lista-redes li {
+    list-style: none;
+}
+
+#lista-redes a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+#name-error, #email-error,
+#telefone-error {
+    display: block;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        max-height: 280px;
+    }
+
+    #campeonato2 {
+        max-height: 300px;
+    }
+
+    aside .nav-tabs {
+        height: 120px;
+    }
+
+    .btn {
+        color: #ff2a6d;
+        background-color: #d1f7ff;
+    }
+    
+
+    form {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .carousel-item img {
+        max-height: 400px;
+    }
+
+    #campeonato1 {
+        max-height: 200px;
+    }
+
+    #campeonato2 {
+        max-height: 280px;
+    }
+
+
+    #arcade{
+        height: 300px
+    }
+
+    .btn {
+        color: #ff2a6d;
+        background-color: #d1f7ff;
+    }
+    
+    form {
+        padding-bottom: 20px;
+    }
+}

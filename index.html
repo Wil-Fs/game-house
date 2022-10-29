@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game House</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bungee&family=Electrolize&family=Fasthand&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top" id="navbar-header">
+        <div class="container">
+            <h1 class="fs-2 me-5 pt-3 pb-3"><i class="bi bi-house"> Game House</i></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-header-content">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class=navbar-collapse collapse" id="nav-header-content">
+                <ul class="nav nav-pills d-block d-md-flex" id="lista-header">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#sobre-a-house">
+                            <i class="bi bi-aspect-ratio"> Sobre o espaço</i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#campeonato">
+                            <i class="bi bi-trophy"> Campeonatos</i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conheca-tambem">
+                            <i class="bi bi-browser-safari"> Conheça também</i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#agende-sua-visita">
+                            <i class="bi bi-calendar-plus"> Agende sua visita</i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="nav-bar-header"  data-bs-smooth-scroll="true">
+        <section id="sobre-a-house">
+            <div class="row">
+                <div id="carousel-pag" data-bs-ride="carousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/carousel/carousel2.jpg"
+                                alt="Foto espaço interno da game house">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carousel/carousel1.jpg"
+                                alt="Foto espaço interno da game house">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" id="carousel5" src="images/carousel/carousel5.jpg"
+                                alt="Foto espaço interno da game house">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carousel/carousel4.jpg" alt="Painel de records">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carousel/carousel3.jpg" alt="Painel Game over">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-pag"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-pag"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carousel-pag"
+                            data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-pag" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-pag" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel-pag" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carousel-pag" data-bs-slide-to="4"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="d-block w-100" src="images/Sobre/epaco-interno.jpg"
+                            alt="Espaço interno da Game House">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="fs-3 mt-3 mt-md-0"><i class="bi bi-aspect-ratio"> Sobre a Game House</i></h2>
+                        <p class="w-100">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quod consequuntur libero,
+                            dolorem illo dolore iusto nulla incidunt vero eos expedita. Nam, ipsum voluptas! Esse natus
+                            autem quos temporibus. Blanditiis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="campeonato" class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mt-5 mb-5"><i class="bi bi-trophy"> Campeonatos</i></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="campeonato1" class="d-block w-100 pb-3" src="images/campeonatos/campeonato2.jpg"
+                            alt="">
+                        <h3 class="text-center pt-2 pb-5"><i class="bi bi-google-play"> Jogue</i></h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="campeonato1" class="d-block w-100 pb-3" src="images/campeonatos/campeonato3.jpg"
+                            alt="">
+                        <h3 class="text-center pt-2 pb-5"><i class="bi bi-bricks"> Quebre recordes</i></h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="campeonato1" class="d-block w-100 pb-3" src="images/campeonatos/campeonato1.jpg"
+                            alt="">
+                        <h3 class="text-center pt-2 pb-5"><i class="bi bi-tornado"> Destaque-se</i></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img id="campeonato2" class="d-block w-100 pb-3" src="images/campeonatos/campeonato4.jpg"
+                            alt="">
+                        <h3 class="text-center pt-2 pb-5"><i class="bi bi-yin-yang"> Ocupe a posição de OverLord</i></h3>
+                    </div>
+                    <div class="col-md-6">
+                        <img id="campeonato2" class="d-block w-100 pb-3" src="images/campeonatos/campeonato5.jpg"
+                            alt="">
+                        <h3 class="text-center pt-2 pb-5"><i class="bi bi-yin-yang"> Ocupe a posição de OverLord</i></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="conheca-tambem" class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mt-5 mb-5"><i class="bi bi-browser-safari"> Conheça também</i></h2>
+                </div>
+                <div class="row">
+                    <div class="aside-item col-md-2">
+                        <aside>
+                            <ul id="tab-pag" class="nav nav-tabs nav-pills flex-column" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a href="#" class="nav-link active fs-5" id="games-retro" data-bs-toggle="tab"
+                                        data-bs-target="#aba-games-retro"><i class="bi bi-joystick"> Games Retro</i></a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a href="#" class="nav-link fs-5" id="nossas-plataformas" data-bs-toggle="tab"
+                                        data-bs-target="#aba-plataformas">
+                                        <i class="bi bi-dpad"> Nossas Plataformas </i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="tab-content col-md-10">
+                        <div class="text-center tab-pane fade show active" id="aba-games-retro">
+                            <div class="row">
+                                <div class="div-retro col-md-3">
+                                    <img id="retro" class="d-block w-100" src="images/games-retro/retro-3.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-suit-spade-fill"> Retro</i>
+                                    </h3>
+                                </div>
+                                <div class="div-retro col-md-3">
+                                    <img id="retro" class="d-block w-100" src="images/games-retro/retro-5.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-suit-club"> Retro</i>
+                                    </h3>
+                                </div>
+                                <div class="div-retro col-md-3">
+                                    <img id="retro" class="d-block w-100" src="images/games-retro/retro-6.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-suit-diamond-fill"> Retro</i>
+                                    </h3>
+                                </div>
+                                <div class="div-retro col-md-3">
+                                    <img id="retro" class="d-block w-100" src="images/games-retro/retro-7.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-suit-heart"> Retro </i>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center tab-pane fade" id="aba-plataformas">
+                            <div class="row">
+                                <div class="div-arcade col-md-4">
+                                    <img id="arcarde" class="d-block w-100" src="images/plataformas/Arcade/Arcade3.jpg"
+                                        alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-dpad-fill"> Arcade</i>
+                                    </h3>
+                                </div>
+                                <div class="div-arcade col-md-4">
+                                    <img id="arcarde" class="d-block w-100" src="images/plataformas/Arcade/Arcade4.jpg"
+                                        alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-dpad-fill"> Arcade</i>
+                                    </h3>
+                                </div>
+                                <div class="div-arcade col-md-4">
+                                    <img id="arcarde" class="d-block w-100" src="images/games-retro/retro-7.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-dpad-fill"> Arcade</i>
+                                    </h3>
+                                </div>
+                                <div class="div-arcade col-md-4">
+                                    <img id="consoles" class="d-block w-100"
+                                        src="images/plataformas/consoles/consoles2.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-playstation"> Consoles</i>
+                                    </h3>
+                                </div>
+                                <div class="div-arcade col-md-4">
+                                    <img id="consoles" class="d-block w-100"
+                                        src="images/plataformas/consoles/consoles1.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi bi-xbox"> Consoles</i>
+                                    </h3>
+                                </div>
+                                <div class="div-arcade col-md-4">
+                                    <img id="consoles" class="d-block w-100"
+                                        src="images/plataformas/consoles/consoles3.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-playstation"> Consoles</i>
+                                    </h3>
+                                </div>
+                                <div class="div-arcade col-md-4">
+                                    <img id="consoles" class="d-block w-100" src="images/plataformas/Pc/pc1.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-steam"> Pcs</i>
+                                    </h3>
+                                </div>
+                                <div class="div-arcade col-md-4">
+                                    <img id="consoles" class="d-block w-100" src="images/plataformas/Pc/pc2.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-steam"> Pcs</i>
+                                    </h3>
+                                </div>
+                                <div class="div-arcade col-md-4">
+                                    <img id="consoles" class="d-block w-100" src="images/plataformas/Pc/pc3.jpg" alt="">
+                                    <h3 class="pb-3 pt-3">
+                                        <i class="bi bi-steam"> Pcs</i>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="agende-sua-visita" class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mt-5 mb-5"><i class="bi bi-calendar-plus"> Agende sua visita</i></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form id="form-pag">
+                            <label for="name" class="form-label">Seu Nome</label>
+                            <input type="text" name="name" class="form-control">
+                            <label for="email" class="form-label">Seu Email</label>
+                            <input type="email" name="email" class="form-control" placeholder="email@exemplo.com">
+                            <label for="telefone" class="form-label">Seu Telefone</label>
+                            <input id="telefone" type="tel" name="telefone" class="form-control" placeholder="(xx) xxxxx-xxxx">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control " name="mensagem" id="mensagem" cols="30" rows="3"></textarea>
+                            <button id="button-send" type="submit" class="btn mt-3"><i class="bi bi-calendar2-check">  Agendar</i></button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <h5><i class="bi bi-window-stack"> Redes Sociais</i></h5>
+                        <ul id="lista-redes" class="d-inline-flex fs-3">
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="ms-2 me-2">
+                                <a href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="row mt-5">
+                            <h5><i class="bi bi-signpost-split"> Endereço</i></h5>
+                            <p>
+                                Rua X, Bloco-A, Tão tão distante - <i class="bi bi-infinity"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="lib/jquery.mask.min.js"></script>
+    <script src="lib/jquery.validate.min.js"></script>
+    <script src="lib/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
