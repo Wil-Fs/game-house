@@ -194,6 +194,11 @@ textarea {
         height: 120px;
     }
 
+    .div-retro img, .div-arcade img {
+        text-align: center;
+        width: 100%;
+    }
+
     .btn {
         color: #ff2a6d;
         background-color: #d1f7ff;

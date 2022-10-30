@@ -31,9 +31,10 @@ $(document).ready(function(){
             $('.tab-content').removeClass('container');
         }
         
+        /*
         if(size < 768) {
             $('.tab-content').addClass('container');
-        }
+        }*/
     });
 
     $('#telefone').mask('(00) 00000-0000')
