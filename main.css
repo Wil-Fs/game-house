@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Electrolize', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -118,10 +119,6 @@ aside,
     font-family: 'Audiowide', cursive;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .carousel-item img {
     max-height: 600px;
     height: 100vh;
@@ -182,9 +179,6 @@ textarea {
 }
 
 @media screen and (max-width: 767px) {
-    html{
-        overflow-x: hidden;
-    }
 
     .carousel-item img {
         max-height: 280px;
@@ -196,11 +190,6 @@ textarea {
 
     aside .nav-tabs {
         height: 120px;
-    }
-
-    .div-retro img, .div-arcade img {
-        text-align: center;
-        width: 100%;
     }
 
     .btn {
@@ -227,6 +216,14 @@ textarea {
         max-height: 280px;
     }
 
+
+    aside .nav-tabs {
+        height: 120px;
+    }
+
+    .tab-content {
+        width: 100%;
+    }
 
     #arcade{
         height: 300px
